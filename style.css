@@ -1,0 +1,84 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+}
+h1 {
+    font-size: 40px;
+    padding-left: 10px;
+    border-left: 3px solid;
+    border-color: peru;
+
+}
+h2{
+    font-size: 35px;
+    text-align: center
+    
+}
+.peru-color{
+    color: rgb(233, 163, 94);
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 70px;
+    padding: 20px;
+
+}
+.half-width img {
+    padding: 5px;
+    padding-left: 70px;
+    width: 70%;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(248, 194, 94, 0.911), rgb(255, 230, 0));
+    padding: 5px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#mission{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-left: 70px;
+    
+}
+#vission{
+    background-color: rgb(195, 253, 234);
+    border-radius: 20px;
+    margin-left: 10px;
+}
+#goals{
+    background-color: rgb(245, 255, 153);
+    border-radius: 20px;
+    margin-right: 70px;
+    margin-left: 10px;
+}
+.image img{
+    padding: 0;
+    width: 150px;  
+}
+#develop-global{
+    margin: 0%;
+    padding-left: 0px;
+    padding-right: 30px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-top: 30px solid;
+}
+footer p{
+    font-size: 15px;
+    color: rgb(167, 166, 166);
+    padding-bottom: 20px;
+    padding-top: 0;
+}
